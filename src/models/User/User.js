@@ -12,10 +12,7 @@ const userSchema = new Schema({
    password: {
       type: String,
       required: true,
-   },
-   imageSource: {
-      type: String,
-   },   
+   },    
    loggedIn: {
       type: Boolean,
       required: true,
