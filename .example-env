@@ -1,5 +1,5 @@
-DB_USER=your_database_details
-DB_PASS=your_database_details
-DB_NAME=your_database_details
+DB_USER=your own Database Username
+DB_URI=your own mongoDB URI
 
-token_secret=your_own_jwt_token_secret
+# token
+token_secret=your own jwt token secret

@@ -7,7 +7,6 @@ import taskRouter from './routes/task/index.js';
 import userRouter from './routes/user/index.js';
 import authRouter from './routes/auth/index.js';
 
-
 // app setup
 const app = express();
 
@@ -18,7 +17,6 @@ applyMiddlewares(app);
 app.use(taskRouter);
 app.use(userRouter);
 app.use(authRouter);
-
 
 // test
 app.get('/health', (req, res) => {
